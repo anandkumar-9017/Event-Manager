@@ -1,13 +1,46 @@
+body{
+
+	background-image: url('2.1.jpg');
+	background-size: cover;
+}
+
+#timer{
+	color: black;
+}
 #topbar{
+	margin-right:  15px;
 	padding: 10px;
-	min-height: 50px;
+	margin-top: 10px;
+	min-height: 40px;
+	color: white;
 }
 #topbar a{
-	padding: 5px;
+	padding: 10px;
 	size: 20px;
+	color: white;
 }
 #topbar .fa{
    font-size: 20px;
+   color: white;
+}
+#logo{
+	padding-top: 15px;
+	margin-left: 10px;
+	opacity: 1.2;
+}
+#register{
+	position: absolute;
+	bottom: 50px;
+	margin-left: 20px;
+	padding: 9px;
+	height: 40px;
+}
+.bot{
+	margin-right: 45px;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 20px;
+	right: 0;
 }
 
 #clock{
@@ -16,9 +49,8 @@
 	margin: 0 auto;
 }
 #clock div{
-	position: relative;
 	width: auto;
-	padding: 15px;
+	padding: 10px;
 	margin:0 5px;
 	background-color: #262626;
 	color: #fff;

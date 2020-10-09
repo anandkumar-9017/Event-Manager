@@ -1,0 +1,21 @@
+body{
+	background-image: url('2.1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#topbar{
+	margin-right:  15px;
+	padding: 10px;
+	margin-top: 10px;
+	min-height: 40px;
+	color: white;
+}
+#topbar a{
+	padding: 10px;
+	size: 20px;
+	color: white;
+}
+#topbar .fa{
+   font-size: 20px;
+   color: white;
+}
