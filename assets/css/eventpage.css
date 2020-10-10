@@ -1,6 +1,6 @@
 body{
 	background-image: url('2.1.jpg');
-	background-size: fill;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 #topbar{
@@ -79,6 +79,12 @@ body{
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+}
+.card{
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 10px;
+
 }
 footer{
 	background-color: black;
