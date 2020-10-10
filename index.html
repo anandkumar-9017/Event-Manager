@@ -24,7 +24,8 @@
 	</script>
 
 </head>
-<body>
+<body id="particles-js">
+	<div id="">
 	<div id="topbar" class="d-sm-flex d-lg-flex align-items-start fixed-top topbar-blue">
 	    <div class="container d-flex justify-content-end">
 	      <div class="social-links">
@@ -36,7 +37,7 @@
 	    </div>
 	</div>
 
-    <div class="container-fluid ">
+    <div  class="container-fluid ">
 	      
         <div class="landing-header">
 			<div class=" center">
@@ -69,7 +70,7 @@
        
         </div>
     	
-
+</div>
 	    
 	</div>
 	
@@ -81,6 +82,11 @@
 	
 	<script src="js/js_land.js"></script>
     <script src="assets/javascript/countdown.js"></script>
+     <script src="assets/javascript/particles.min.js"></script>
+     <script src="assets/javascript/app.js"></script>
+     
+
+
     <script type="text/javascript">
     	$('#clock').countdown('2021/1/1',function(event){
     		var $this= $(this).html(event.strftime(''
