@@ -25,12 +25,12 @@ body{
 .wrap h2{
 	font-size:2em;
 	text-align:center;
-	color: white;
+	color: black;
 	font-weight: bold;
 	padding: 10px;
 }
 
-#btn{
+#reg{
 	margin: 10px 0px;
 	padding:10px;
 	width:49%;

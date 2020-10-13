@@ -1,7 +1,23 @@
+*{
+	padding: 0px;
+	margin-bottom: 0px;
+}
 body{
+	background-image: url("2.1.jpg");
+	background-size: cover;	
+}
+#particle_background canvas{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -10;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
 
-	background-image: url('2.1.jpg');
-	background-size: cover;
+}
+#headlogo{
+
 }
 
 #timer{
@@ -9,26 +25,26 @@ body{
 }
 #topbar{
 	margin-right:  15px;
-	padding: 10px;
-	margin-top: 10px;
+	padding: 20px;
 	min-height: 40px;
 	background-color: transparent;
 }
 #topbar a{
-	padding: 10px;
+	padding-left: 10px;
 	size: 20px;
-	color: black;
+	color: white;
 	
 }
 #topbar .fa{
    font-size: 20px;
-   color: black;
+   color: white;
 }
 #logo{
 	padding-top: 15px;
-	margin-left: 10px;
+	margin-left: 30px;
 	opacity: 1.2;
 }
+
 #register{
 	position: absolute;
 	bottom: 50px;
@@ -44,20 +60,52 @@ body{
 	padding-bottom: 30px;
 	right: 0;
 }
+#timer{
+	align-items: center;
+	margin-left: 50%
+	margin-right: auto;
+	animation-timing-function: linear;
 
+}
+#timer h2{
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes slidein{
+	from{
+		margin-left: 50%;
+		width: 40%
+	}
+	to{
+		margin-left:-20%;
+		width: 100%;
+	}
+}
 #clock{
 	display: flex;
-	width: auto;
-	margin: 0 auto;
+	align-self: center;
+	margin-left: 30%;
+
+
 }
 #clock div{
 	width: auto;
 	padding: 10px;
-	margin:0 5px;
+	margin:0px 5px;
 	background-color: #262626;
 	color: #fff;
 	border:2px solid #000;
 }
 #clock div:last-child{
 	background-color: #e91e63;
+}
+
+@media only screen and (max-width: 700px){
+	#clock{
+		display: flex;
+		align-self: center;
+		margin-left: 10%;
+	}
 }
