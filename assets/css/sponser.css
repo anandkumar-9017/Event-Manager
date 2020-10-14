@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(1.1.jpg);
+	background-size: cover;
+	background-image-opacity:0.6;
+}
+.center{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.zoom{
+	padding: 20px;
+	transition: transform .2s;
+	width: auto;
+	height: auto;
+
+}
+.zoom:hover{
+	transform: scale(1.2);
+}
+
+#sponser{
+	align-items: center;
+}
