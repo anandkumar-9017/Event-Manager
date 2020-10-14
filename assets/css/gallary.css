@@ -6,3 +6,13 @@ body{
 	background-image: url(1.1.jpg);
 	background-size: cover;
 }
+.zoom{
+	padding: 20px;
+	transition: transform .2s;
+	width: auto;
+	height: auto;
+
+}
+.zoom:hover{
+	transform: scale(1.2);
+}
