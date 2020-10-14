@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>  
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#004894">
+  <meta name="msapplication-navbar-color" content="#004894">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#004894">
+
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="assets/css/animate.css">
 
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -19,11 +25,11 @@
 <body>
   <nav class="navbar navbar-fixed-top navbar-expand-md  navbar-light " style="background-color: transparent;">
     <!-- Brand -->
-    <a class="navbar-brand"><img src="assets/images/logo.png" height="40px"></a>
+    <a class="navbar-brand animated zoomIn" style="margin-left: 10px;"><img src="assets/images/logo.png" height="45px"></a>
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="color: white; background-color: white;">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon animated zoomIn"></span>
     </button>
 
     <!-- Navbar links -->
@@ -32,7 +38,7 @@
         <li class="nav-item">
           <a class="nav-link" style="color: white; size: 40px;" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" style="color: white; size: 40px;" href="events.html">Events</a>
         </li>
         <li class="nav-item">
@@ -54,26 +60,26 @@
     </div>
   </nav>
   <div class="wrap">
-    <h2>Register Yourself Here!</h2>
-    <div class="social-media">
-      <button id="reg" > <a href="#" >Sign up </button>
+    <h2 class="animated infinite zoomIn" style="color: white;">Register Yourself Here!</h2>
+    <div class="social-media animated fadeInDown">
+      <button  id="reg" > <a href="#" >Sign up </button>
       <button id="reg" > <a href="#" >Log in</button> 
     </div>	
          
     <form method="POST" action="register.php">
-      <label> USERNAME:</label><br>
-      <input type="text" name="user_name" placeholder="Enter User Name" required=""><br>
-      <label> REGISTRATION NO:</label><br>
-      <input type="number" name="reg_no" placeholder="Enter Registration Number" required=""><br>
-      <label >PHONE NO:</label> <br>
-      <input type="number" name="phone_no" placeholder="Enter Contact Number" required=""><br>
-      <label> EMAIL:</label><br>
-      <input type="email"  name="email" placeholder="Enter Email I'd" required=""><br>
-      <label> COLLEGE NAME:</label><br>
-      <input type="text" name="college_name" placeholder="Enter College Name" required=""><br>
-      <label > PASSWORD:</label><br>
-      <input type="password" name="password" placeholder="Enter your Password" required=""><br><br>
-      <input type="submit" value="SIGN UP">	   
+      <label class="animated fadeInDown"> USERNAME:</label><br>
+      <input class="animated fadeInLeft" type="text" name="user_name" placeholder="Enter User Name" required=""><br>
+      <label class="animated fadeInDown"> REGISTRATION NO:</label><br>
+      <input class="animated fadeInLeft" type="number" name="reg_no" placeholder="Enter Registration Number" required=""><br>
+      <label class="animated fadeInDown" >PHONE NO:</label> <br>
+      <input class="animated fadeInLeft" type="number" name="phone_no" placeholder="Enter Contact Number" required=""><br>
+      <label class="animated fadeInDown"> EMAIL:</label><br>
+      <input class="animated fadeInLeft" type="email"  name="email" placeholder="Enter Email I'd" required=""><br>
+      <label class="animated fadeInDown"> COLLEGE NAME:</label><br>
+      <input class="animated fadeInLeft" type="text" name="college_name" placeholder="Enter College Name" required=""><br>
+      <label class="animated fadeInDown" > PASSWORD:</label><br>
+      <input class="animated fadeInLeft" type="password" name="password" placeholder="Enter your Password" required=""><br><br>
+      <input class="animated fadeInLeft" type="submit" value="SIGN UP">	   
     </form>
   </div>
   <script>
