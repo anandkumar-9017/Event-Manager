@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
   <link rel="stylesheet"  href="assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="assets/css/sponser.css">
 
@@ -74,7 +76,7 @@
   </div>
 
   <!-- Sponser images -->
-  <section id="sponser" >
+  <section id="sponser" data-aos="fade-up" >
     <div class="container">
       <div class="row " >
         <div class="col-lg-4 col-md-6  zoom center">
@@ -82,32 +84,32 @@
               <img src="https://d33wubrfki0l68.cloudfront.net/22831f25468a7d8a70d77f307a1376aaa8cf64d8/bfb1b/images/new_sponsors/sbi.svg" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-4 col-md-6  zoom center">
-            <div class="box animated zoomIn ">
+        <div class="col-lg-4 col-md-6  zoom center"  data-aos="fade-up" >
+            <div class="box animated zoomIn " >
               <img src="https://d33wubrfki0l68.cloudfront.net/0fae90dc067264270912578ed944753febc3c1b6/c4f5c/images/sponsors/grabon.svg" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-4 col-md-6  zoom center">
+        <div class="col-lg-4 col-md-6  zoom center" data-aos="fade-left"  data-aos-delay="200">
             <div class="box animated zoomIn ">
               <img src="https://d33wubrfki0l68.cloudfront.net/3ce77ee3e19f7ea0b7b06248ac3116dce3c297a5/3c12c/images/new_sponsors/souled_store.png" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 zoom center ">
+        <div class="col-lg-4 col-md-6 zoom center " data-aos="fade-right"   data-aos-mirror="true">
           <div class="box zoomIn">
           <img src="https://d33wubrfki0l68.cloudfront.net/b4eb4cf70efa49c30e2f6f5fd918acd66c3f0c9e/31833/images/new_sponsors/hero.svg" class="img-fluid" alt="...">
           </div>            
         </div>
-         <div class="col-lg-4 col-md-6  zoom center">
+         <div class="col-lg-4 col-md-6  zoom center" data-aos="zoom-in">
             <div class="box animated zoomIn ">
               <img src="https://d33wubrfki0l68.cloudfront.net/a7512f13bcd1fbc6fab189621e1862258688fdcb/3b893/images/new_sponsors/vlcc.svg" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-4 col-md-6  zoom center">
+        <div class="col-lg-4 col-md-6  zoom center" data-aos="zoom-in" data-aos-duration="500">
             <div class="box animated zoomIn ">
               <img src="https://d33wubrfki0l68.cloudfront.net/5ad930ee36aff8dfa011994b2eec69163220e2d9/ee907/images/new_sponsors/red_fm.svg" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-4 col-md-6  zoom center">
+        <div class="col-lg-4 col-md-6  zoom center" data-aos="fade-up" data-aos-duration="400">
             <div class="box animated zoomIn ">
               <img src="https://d33wubrfki0l68.cloudfront.net/d2e0c0147e5090436586b229a2267aa279f0a5bf/c9187/images/new_sponsors/octave.svg" class="img-fluid" alt="">
             </div>
@@ -138,6 +140,9 @@
   
   <script src="assets/javascript/particles.min.js"></script>
   <script src="assets/javascript/app.js"></script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

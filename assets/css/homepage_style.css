@@ -6,6 +6,11 @@ body{
 	background-image: url("2.1.jpg");
 	background-size: cover;	
 }
+.center{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
 #particle_background canvas{
 	width: 100%;
 	height: 100%;
@@ -14,9 +19,6 @@ body{
 	width: 100%;
 	height: 100%;
 	background-repeat: repeat;
-
-}
-#headlogo{
 
 }
 
@@ -60,40 +62,16 @@ body{
 	padding-bottom: 30px;
 	right: 0;
 }
-#timer{
-	align-items: center;
-	margin-left: 50%
-	margin-right: auto;
-	animation-timing-function: linear;
 
-}
-#timer h2{
-	animation-duration: 3s;
-	animation-name: slidein;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-@keyframes slidein{
-	from{
-		margin-left: 50%;
-		width: 40%
-	}
-	to{
-		margin-left:-20%;
-		width: 100%;
-	}
-}
+
 #clock{
 	display: flex;
-	align-self: center;
-	margin-left: 10%;
-
-
+	padding: 10px;
+	position: relative;
 }
 #clock div{
 	width: auto;
 	padding: 10px;
-	margin:0px 5px;
 	background-color: #262626;
 	color: #fff;
 	border:2px solid #000;
@@ -106,6 +84,6 @@ body{
 	#clock{
 		display: flex;
 		align-self: center;
-		margin-left: 10%;
+		
 	}
 }
